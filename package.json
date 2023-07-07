@@ -1,0 +1,64 @@
+{
+  "name": "link",
+  "icon": "view/clover.png",
+  "displayName": "link",
+  "description": "Link Syntax Highlighter",
+  "version": "1.1.0",
+  "license": "Apache 2.0",
+  "publisher": "tunebond",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tunebond/link.git"
+  },
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "workspaceContains:**/*.link"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "link",
+        "label": "Link",
+        "path": "./view/view.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[link]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+          "other": true,
+          "comments": true,
+          "strings": true
+        },
+        "editor.tabCompletion": "on",
+        "editor.wordSeparators": " ()<>{},?/",
+        "editor.bracketPairColorization.enabled": false
+      }
+    },
+    "languages": [
+      {
+        "id": "link",
+        "aliases": [
+          "Link",
+          "link"
+        ],
+        "extensions": [
+          ".link"
+        ],
+        "configuration": "./bind.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "link",
+        "scopeName": "source.link",
+        "path": "./text.json"
+      }
+    ]
+  }
+}
