@@ -8,7 +8,7 @@
 
 <h3 align='center'>link-code</h3>
 <p align='center'>
-  The VSCode Syntax Highlighter for Link
+  The VSCode Syntax Highlighter for <a href="https://github.com/tunebond/link">Link</a>
 </p>
 
 <br/>
