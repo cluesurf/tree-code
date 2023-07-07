@@ -15,6 +15,12 @@
 <br/>
 <br/>
 
+## Development
+
+Inside the editor, press `F5`. This will compile and run the extension in a new Extension Development Host window. Make changes them press `F5` again, etc..
+
+[Here](https://code.visualstudio.com/api/get-started/extension-anatomy) is more info on building an extension. [Here](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) is how to publish the extension.
+
 ## License
 
 Copyright 2023 <a href='https://tune.bond'>TuneBond</a>
