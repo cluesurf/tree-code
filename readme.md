@@ -21,6 +21,10 @@ Inside the editor, press `F5`. This will compile and run the extension in a new 
 
 [Here](https://code.visualstudio.com/api/get-started/extension-anatomy) is more info on building an extension. [Here](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) is how to publish the extension.
 
+## Inspiration
+
+- https://github.com/typescript-language-server/typescript-language-server
+
 ## License
 
 Copyright 2023 <a href='https://tune.bond'>TuneBond</a>
@@ -39,4 +43,4 @@ limitations under the License.
 
 ## TuneBond
 
-This is being developed by the folks at [TuneBond](https://tune.bond), a California-based project for helping humanity master information and computation. TuneBond started off in the winter of 2008 as a spark of an idea, to forming a company 10 years later in the winter of 2018, to a crow of a project just beginning its development phases. It is entirely bootstrapped by working full time and running [Etsy](https://etsy.com/shop/mountbuild) and [Amazon](https://www.amazon.com/s?rh=p_27%3AMount+Build) shops. Also find us on [Facebook](https://www.facebook.com/tunebond), [Twitter](https://twitter.com/tunebond), and [LinkedIn](https://www.linkedin.com/company/tunebond). Check out our other GitHub projects as well!
+This is being developed by the folks at [TuneBond](https://tune.bond), a California-based project for helping humanity master information and computation. Find us on[Twitter](https://twitter.com/tunebond), [LinkedIn](https://www.linkedin.com/company/tunebond), and [Facebook](https://www.facebook.com/tunebond). Check out our other [GitHub projects](https://github.com/tunebond) as well!
