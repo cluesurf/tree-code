@@ -5,10 +5,10 @@
   "description": "Link Syntax Highlighter",
   "version": "1.1.0",
   "license": "Apache 2.0",
-  "publisher": "wavebond",
+  "publisher": "textsurf",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wavebond/link.git"
+    "url": "https://github.com/textsurf/link.git"
   },
   "engines": {
     "vscode": "^1.59.0"
