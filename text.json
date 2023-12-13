@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "Link",
+  "name": "Note",
   "patterns": [
     {
       "include": "#nestedtermsexternal"
@@ -34,11 +34,11 @@
     "comments": {
       "patterns": [
         {
-          "name": "comment.line.number-sign.link",
+          "name": "comment.line.number-sign.note",
           "match": "\\# .+"
         },
         {
-          "name": "comment.line.number-sign.link",
+          "name": "comment.line.number-sign.note",
           "match": "\\#"
         }
       ]
@@ -46,7 +46,7 @@
     "codes": {
       "patterns": [
         {
-          "name": "entity.name.function.link",
+          "name": "entity.name.function.note",
           "match": "\\#\\w+"
         }
       ]
@@ -57,13 +57,13 @@
           "begin": "([a-z][a-z0-9]*(?:-+[a-z0-9]+)*-*) ",
           "beginCaptures": {
             "1": {
-              "name": "constant.language.link"
+              "name": "constant.language.note"
             }
           },
           "end": "[,\n]",
           "endCaptures": {
             "0": {
-              "name": "variable.other.link"
+              "name": "variable.other.note"
             }
           },
           "patterns": [
@@ -98,20 +98,20 @@
     "nestedterms": {
       "patterns": [
         {
-          "name": "constant.language.link",
+          "name": "constant.language.note",
           "begin": "([a-z][a-z0-9]*(?:-+[a-z0-9]+)*-*)(\\()",
           "beginCaptures": {
             "1": {
-              "name": "constant.language.link"
+              "name": "constant.language.note"
             },
             "2": {
-              "name": "punctuation.separator.parameter.link"
+              "name": "punctuation.separator.parameter.note"
             }
           },
           "end": "\\)",
           "endCaptures": {
             "0": {
-              "name": "punctuation.separator.parameter.link"
+              "name": "punctuation.separator.parameter.note"
             }
           },
           "patterns": [
@@ -140,10 +140,10 @@
           "match": "(/)?([a-z][a-z0-9]*(?:-+[a-z0-9]+)*-*)",
           "captures": {
             "1": {
-              "name": "variable.other.link"
+              "name": "variable.other.note"
             },
             "2": {
-              "name": "string.quoted.single.link"
+              "name": "string.quoted.single.note"
             }
           }
         }
@@ -152,11 +152,11 @@
     "numbers": {
       "patterns": [
         {
-          "name": "entity.name.function.link",
+          "name": "entity.name.function.note",
           "match": "\\d+"
         },
         {
-          "name": "entity.name.function.link",
+          "name": "entity.name.function.note",
           "match": "\\d+\\.\\d+"
         }
       ]
@@ -164,7 +164,7 @@
     "punctuations": {
       "patterns": [
         {
-          "name": "punctuation.separator.parameter.link",
+          "name": "punctuation.separator.parameter.note",
           "match": "[,/\\?\\*]"
         }
       ]
@@ -173,13 +173,13 @@
       "begin": "\\{+",
       "beginCaptures": {
         "0": {
-          "name": "support.type.property-name.link.link"
+          "name": "support.type.property-name.note.note"
         }
       },
       "end": "\\}+",
       "endCaptures": {
         "0": {
-          "name": "support.type.property-name.link.link"
+          "name": "support.type.property-name.note.note"
         }
       },
       "patterns": [
@@ -204,13 +204,13 @@
       "begin": "\\<",
       "beginCaptures": {
         "0": {
-          "name": "entity.name.tag.link"
+          "name": "entity.name.tag.note"
         }
       },
       "end": "\\>",
       "endCaptures": {
         "0": {
-          "name": "entity.name.tag.link"
+          "name": "entity.name.tag.note"
         }
       },
       "patterns": [
@@ -221,11 +221,11 @@
           "include": "#interpolations"
         },
         {
-          "name": "entity.name.tag.link",
+          "name": "entity.name.tag.note",
           "match": "[^\\\\{>]+"
         }
       ]
     }
   },
-  "scopeName": "source.link"
+  "scopeName": "source.note"
 }

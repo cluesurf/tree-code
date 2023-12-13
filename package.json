@@ -1,14 +1,15 @@
 {
-  "name": "link",
-  "icon": "view/clover.png",
-  "displayName": "link",
-  "description": "Link Syntax Highlighter",
-  "version": "1.1.0",
+  "name": "note-text",
+  "icon": "view/note.png",
+  "displayName": "NoteText",
+  "description": "NoteText Syntax Highlighter",
+  "version": "1.0.0",
   "license": "Apache 2.0",
   "publisher": "termsurf",
+  "main": "./base.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/termsurf/link.git"
+    "url": "https://github.com/termsurf/note-text.git"
   },
   "engines": {
     "vscode": "^1.59.0"
@@ -17,18 +18,18 @@
     "Programming Languages"
   ],
   "activationEvents": [
-    "workspaceContains:**/*.link"
+    "workspaceContains:**/*.note"
   ],
   "contributes": {
     "iconThemes": [
       {
-        "id": "link",
-        "label": "Link",
+        "id": "note",
+        "label": "Note",
         "path": "./view/view.json"
       }
     ],
     "configurationDefaults": {
-      "[link]": {
+      "[note]": {
         "editor.wordWrap": "on",
         "editor.quickSuggestions": {
           "other": true,
@@ -42,21 +43,21 @@
     },
     "languages": [
       {
-        "id": "link",
+        "id": "note",
         "aliases": [
-          "Link",
-          "link"
+          "Note",
+          "note"
         ],
         "extensions": [
-          ".link"
+          ".note"
         ],
         "configuration": "./bind.json"
       }
     ],
     "grammars": [
       {
-        "language": "link",
-        "scopeName": "source.link",
+        "language": "note",
+        "scopeName": "source.note",
         "path": "./text.json"
       }
     ]
