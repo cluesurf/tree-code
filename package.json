@@ -7,6 +7,11 @@
   "license": "Apache 2.0",
   "publisher": "termsurf",
   "main": "./base.js",
+  "scripts": {
+    "dock": "vsce login termsurf",
+    "make": "vsce package",
+    "host": "vsce publish"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/termsurf/leaf-text.git"
@@ -24,7 +29,7 @@
     "iconThemes": [
       {
         "id": "leaf",
-        "label": "Note",
+        "label": "Leaf",
         "path": "./view/view.json"
       }
     ],
@@ -45,7 +50,7 @@
       {
         "id": "leaf",
         "aliases": [
-          "Note",
+          "Leaf",
           "leaf"
         ],
         "extensions": [

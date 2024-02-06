@@ -1,3 +1,3 @@
 exports.activate = function(){
-  console.log('note activated')
+  console.log('leaf activated')
 }
