@@ -6,9 +6,9 @@
 <br/>
 <br/>
 
-<h3 align='center'>@termsurf/note-text</h3>
+<h3 align='center'>@termsurf/leaf-text</h3>
 <p align='center'>
-  The VSCode Syntax Highlighter for <a href="https://github.com/termsurf/note">Note</a>
+  The VSCode Syntax Highlighter for <a href="https://github.com/termsurf/leaf">LeafText</a>
 </p>
 
 <br/>

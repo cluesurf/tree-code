@@ -1,15 +1,15 @@
 {
-  "name": "note-text",
-  "icon": "view/note.png",
-  "displayName": "NoteText",
-  "description": "NoteText Syntax Highlighter",
+  "name": "leaf-text",
+  "icon": "view/leaf.png",
+  "displayName": "LeafText",
+  "description": "LeafText Syntax Highlighter",
   "version": "1.0.0",
   "license": "Apache 2.0",
   "publisher": "termsurf",
   "main": "./base.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/termsurf/note-text.git"
+    "url": "https://github.com/termsurf/leaf-text.git"
   },
   "engines": {
     "vscode": "^1.59.0"
@@ -18,18 +18,18 @@
     "Programming Languages"
   ],
   "activationEvents": [
-    "workspaceContains:**/*.note"
+    "workspaceContains:**/*.leaf"
   ],
   "contributes": {
     "iconThemes": [
       {
-        "id": "note",
+        "id": "leaf",
         "label": "Note",
         "path": "./view/view.json"
       }
     ],
     "configurationDefaults": {
-      "[note]": {
+      "[leaf]": {
         "editor.wordWrap": "on",
         "editor.quickSuggestions": {
           "other": true,
@@ -43,21 +43,21 @@
     },
     "languages": [
       {
-        "id": "note",
+        "id": "leaf",
         "aliases": [
           "Note",
-          "note"
+          "leaf"
         ],
         "extensions": [
-          ".note"
+          ".leaf"
         ],
         "configuration": "./bind.json"
       }
     ],
     "grammars": [
       {
-        "language": "note",
-        "scopeName": "source.note",
+        "language": "leaf",
+        "scopeName": "source.leaf",
         "path": "./text.json"
       }
     ]
