@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "Leaf",
+  "name": "TreeCode",
   "patterns": [
     {
       "include": "#nestedtermsexternal"
@@ -34,11 +34,11 @@
     "comments": {
       "patterns": [
         {
-          "name": "comment.line.number-sign.leaf",
+          "name": "comment.line.number-sign.tree",
           "match": "\\# .+"
         },
         {
-          "name": "comment.line.number-sign.leaf",
+          "name": "comment.line.number-sign.tree",
           "match": "\\#"
         }
       ]
@@ -46,7 +46,7 @@
     "codes": {
       "patterns": [
         {
-          "name": "entity.name.function.leaf",
+          "name": "entity.name.function.tree",
           "match": "\\#\\w+"
         }
       ]
@@ -57,13 +57,13 @@
           "begin": "([a-z][a-z0-9]*(?:-+[a-z0-9]+)*-*) ",
           "beginCaptures": {
             "1": {
-              "name": "constant.language.leaf"
+              "name": "constant.language.tree"
             }
           },
           "end": "[,\n]",
           "endCaptures": {
             "0": {
-              "name": "variable.other.leaf"
+              "name": "variable.other.tree"
             }
           },
           "patterns": [
@@ -98,20 +98,20 @@
     "nestedterms": {
       "patterns": [
         {
-          "name": "constant.language.leaf",
+          "name": "constant.language.tree",
           "begin": "([a-z][a-z0-9]*(?:-+[a-z0-9]+)*-*)(\\()",
           "beginCaptures": {
             "1": {
-              "name": "constant.language.leaf"
+              "name": "constant.language.tree"
             },
             "2": {
-              "name": "punctuation.separator.parameter.leaf"
+              "name": "punctuation.separator.parameter.tree"
             }
           },
           "end": "\\)",
           "endCaptures": {
             "0": {
-              "name": "punctuation.separator.parameter.leaf"
+              "name": "punctuation.separator.parameter.tree"
             }
           },
           "patterns": [
@@ -140,10 +140,10 @@
           "match": "(/)?([a-z][a-z0-9]*(?:-+[a-z0-9]+)*-*)",
           "captures": {
             "1": {
-              "name": "variable.other.leaf"
+              "name": "variable.other.tree"
             },
             "2": {
-              "name": "string.quoted.single.leaf"
+              "name": "string.quoted.single.tree"
             }
           }
         }
@@ -152,11 +152,11 @@
     "numbers": {
       "patterns": [
         {
-          "name": "entity.name.function.leaf",
+          "name": "entity.name.function.tree",
           "match": "\\d+"
         },
         {
-          "name": "entity.name.function.leaf",
+          "name": "entity.name.function.tree",
           "match": "\\d+\\.\\d+"
         }
       ]
@@ -164,7 +164,7 @@
     "punctuations": {
       "patterns": [
         {
-          "name": "punctuation.separator.parameter.leaf",
+          "name": "punctuation.separator.parameter.tree",
           "match": "[,/\\?\\*]"
         }
       ]
@@ -173,13 +173,13 @@
       "begin": "\\{+",
       "beginCaptures": {
         "0": {
-          "name": "support.type.property-name.leaf.leaf"
+          "name": "support.type.property-name.tree.tree"
         }
       },
       "end": "\\}+",
       "endCaptures": {
         "0": {
-          "name": "support.type.property-name.leaf.leaf"
+          "name": "support.type.property-name.tree.tree"
         }
       },
       "patterns": [
@@ -204,13 +204,13 @@
       "begin": "\\<",
       "beginCaptures": {
         "0": {
-          "name": "entity.name.tag.leaf"
+          "name": "entity.name.tag.tree"
         }
       },
       "end": "\\>",
       "endCaptures": {
         "0": {
-          "name": "entity.name.tag.leaf"
+          "name": "entity.name.tag.tree"
         }
       },
       "patterns": [
@@ -221,11 +221,11 @@
           "include": "#interpolations"
         },
         {
-          "name": "entity.name.tag.leaf",
+          "name": "entity.name.tag.tree",
           "match": "[^\\\\{>]+"
         }
       ]
     }
   },
-  "scopeName": "source.leaf"
+  "scopeName": "source.tree"
 }

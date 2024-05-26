@@ -1,10 +1,10 @@
 {
 	"iconDefinitions": {
 		"_file_dark": {
-			"iconPath": "./note.svg"
+			"iconPath": "./tree.svg"
 		}
 	},
 	"fileExtensions": {
-		"link": "_file_dark"
+		"tree": "_file_dark"
 	}
 }

@@ -1,10 +1,10 @@
 {
-  "name": "leaf-text",
-  "icon": "view/leaf.png",
-  "displayName": "LeafText",
-  "description": "LeafText Syntax Highlighter",
-  "version": "1.0.0",
-  "license": "Apache 2.0",
+  "name": "tree-code",
+  "icon": "view/tree.png",
+  "displayName": "TreeCode",
+  "description": "TreeCode Syntax Highlighter",
+  "version": "1.0.1",
+  "license": "MIT",
   "publisher": "termsurf",
   "main": "./base.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/termsurf/leaf-text.git"
+    "url": "https://github.com/termsurf/tree-code.git"
   },
   "engines": {
     "vscode": "^1.59.0"
@@ -23,18 +23,18 @@
     "Programming Languages"
   ],
   "activationEvents": [
-    "workspaceContains:**/*.leaf"
+    "workspaceContains:**/*.tree"
   ],
   "contributes": {
     "iconThemes": [
       {
-        "id": "leaf",
-        "label": "Leaf",
+        "id": "tree",
+        "label": "Tree",
         "path": "./view/view.json"
       }
     ],
     "configurationDefaults": {
-      "[leaf]": {
+      "[tree]": {
         "editor.wordWrap": "on",
         "editor.quickSuggestions": {
           "other": true,
@@ -48,21 +48,22 @@
     },
     "languages": [
       {
-        "id": "leaf",
+        "id": "tree",
         "aliases": [
-          "Leaf",
-          "leaf"
+          "Tree",
+          "TreeCode",
+          "tree"
         ],
         "extensions": [
-          ".leaf"
+          ".tree"
         ],
         "configuration": "./bind.json"
       }
     ],
     "grammars": [
       {
-        "language": "leaf",
-        "scopeName": "source.leaf",
+        "language": "tree",
+        "scopeName": "source.tree",
         "path": "./text.json"
       }
     ]

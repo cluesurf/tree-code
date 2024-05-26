@@ -1,3 +1,3 @@
 exports.activate = function(){
-  console.log('leaf activated')
+  console.log('TreeCode activated')
 }
