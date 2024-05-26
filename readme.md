@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@termsurf/TreeCode</h3>
+<h3 align='center'>@termsurf/tree-code</h3>
 <p align='center'>
   The VSCode Syntax Highlighter for <a href="https://github.com/termsurf/tree">TreeCode</a>
 </p>

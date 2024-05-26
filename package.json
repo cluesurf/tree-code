@@ -3,7 +3,7 @@
   "icon": "view/tree.png",
   "displayName": "TreeCode",
   "description": "TreeCode Syntax Highlighter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "publisher": "termsurf",
   "main": "./base.js",
