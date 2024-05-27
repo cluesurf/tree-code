@@ -1,0 +1,8 @@
+.vscode
+tmp
+node_modules
+.gitignore
+.prettierignore
+.prettierrc.json
+*.vsix
+pnpm-lock.yaml
