@@ -3,7 +3,7 @@
   "icon": "view/tree.png",
   "displayName": "TreeCode",
   "description": "TreeCode Syntax Highlighter",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "license": "MIT",
   "publisher": "termsurf",
   "main": "./base.js",
@@ -25,6 +25,9 @@
   "activationEvents": [
     "workspaceContains:**/*.tree"
   ],
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  },
   "contributes": {
     "iconThemes": [
       {
@@ -57,14 +60,28 @@
         "extensions": [
           ".tree"
         ],
-        "configuration": "./bind.json"
+        "configuration": "./text/bind.json"
+      },
+      {
+        "id": "tree-markdown-injection"
       }
     ],
     "grammars": [
       {
         "language": "tree",
         "scopeName": "source.tree",
-        "path": "./text.json"
+        "path": "./text/tree.json"
+      },
+      {
+        "language": "tree-markdown-injection",
+        "scopeName": "markdown.tree.codeblock",
+        "path": "./text/mark.json",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.tree": "tree"
+        }
       }
     ]
   }
