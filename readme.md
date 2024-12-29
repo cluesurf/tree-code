@@ -6,9 +6,9 @@
 <br/>
 <br/>
 
-<h3 align='center'>@termsurf/tree-code</h3>
+<h3 align='center'>@cluesurf/tree-code</h3>
 <p align='center'>
-  The VSCode Syntax Highlighter for <a href="https://github.com/termsurf/tree">TreeCode</a>
+  The VSCode Syntax Highlighter for <a href="https://github.com/cluesurf/tree">TreeCode</a>
 </p>
 
 <br/>
@@ -30,11 +30,11 @@ To publish, get an access token by following
 [these instructions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token).
 
 - The organization we need to create the access token under is here at
-  [TermSurf](https://dev.azure.com/termsurf).
+  [ClueSurf](https://dev.azure.com/cluesurf).
 - Here is the
   [VSCode Marketplace profile page](https://aex.dev.azure.com/me?mkt=en-US).
 - Here is the
-  [VSCode package page for TermSurf](https://marketplace.visualstudio.com/manage/publishers/termsurf).
+  [VSCode package page for ClueSurf](https://marketplace.visualstudio.com/manage/publishers/cluesurf).
 
 ## Inspiration
 
@@ -44,11 +44,11 @@ To publish, get an access token by following
 
 MIT
 
-## TermSurf
+## ClueSurf
 
-This is being developed by the folks at [TermSurf](https://term.surf), a
+This is being developed by the folks at [ClueSurf](https://clue.surf), a
 California-based project for helping humanity master information and
-computation. Find us on [Twitter](https://twitter.com/termsurf),
-[LinkedIn](https://www.linkedin.com/company/termsurf), and
-[Facebook](https://www.facebook.com/termsurf). Check out our other
-[GitHub projects](https://github.com/termsurf) as well!
+computation. Find us on [Twitter](https://twitter.com/cluesurf),
+[LinkedIn](https://www.linkedin.com/company/cluesurf), and
+[Facebook](https://www.facebook.com/cluesurf). Check out our other
+[GitHub projects](https://github.com/cluesurf) as well!

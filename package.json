@@ -5,16 +5,16 @@
   "description": "TreeCode Syntax Highlighter",
   "version": "1.1.1",
   "license": "MIT",
-  "publisher": "termsurf",
+  "publisher": "cluesurf",
   "main": "./base.js",
   "scripts": {
-    "dock": "vsce login termsurf",
+    "dock": "vsce login cluesurf",
     "make": "vsce package",
     "host": "vsce publish"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/termsurf/tree-code.git"
+    "url": "https://github.com/cluesurf/tree-code.git"
   },
   "engines": {
     "vscode": "^1.59.0"
