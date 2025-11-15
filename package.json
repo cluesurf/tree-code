@@ -3,14 +3,15 @@
   "icon": "view/tree.png",
   "displayName": "TreeCode",
   "description": "TreeCode Syntax Highlighter",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "license": "MIT",
   "publisher": "cluesurf",
   "main": "./base.js",
   "scripts": {
     "dock": "vsce login cluesurf",
     "make": "vsce package",
-    "host": "vsce publish"
+    "host": "vsce publish",
+    "view": "convert -background none -resize 1024x view/tree.svg view/tree.png"
   },
   "repository": {
     "type": "git",
